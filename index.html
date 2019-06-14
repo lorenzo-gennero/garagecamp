@@ -18,15 +18,32 @@
         box-sizing: border-box;
     }
 
+    @media only screen and (max-width: 500px) {
+  body {
+    background-image: url(mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (min-width: 501px) {
+  body {
+    background-image: url(cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+}
+/*
     body {
     
-    background-image: url("cover.jpg");
+    background-image: url("test.png");
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
 
     }
-    
+    */
 
     .container {
         align-content: center;
@@ -65,12 +82,16 @@
     a:hover {
   color: hotpink;
 }
+
+
+
    
     </style>
 </head>
 <body>
+    
     <div class="wrapper">
-        
+     
     <header class="header">
         <b> GARAGE CAMP </b>
         <br>
@@ -81,11 +102,12 @@
        Email: <a href="mailto:garagecamp@gmail.com">garagecamp@gmail.com</a>
 <br>
        Instagram: <a target="_blank" href="https://www.instagram.com/explore/locations/954993244/france/mont-de-lans-rhone-alpes-france/garage-camp/">
-    garagecamp
+    GARAGECAMP
     </a>
     </small>
 </i>
     </header>
+
 
 </div>
 </body>
