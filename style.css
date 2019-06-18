@@ -1,5 +1,5 @@
 :root {
-    --background:rgba(85, 214, 170, .85);
+    --background:rgba(18, 82, 120, .80);
 }
 
 html {
@@ -43,15 +43,6 @@ body {
    
 }
 
-p {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
 footer {
     margin-top: auto;
     color: white;
@@ -59,7 +50,11 @@ footer {
     display: flex;
     width: 100;
     justify-content: center;
-    background: rgba(85, 214, 170, .85);
+    background: var(--background);
+}
+
+footer a:link {
+    color: white;
 }
 
 .btn{
@@ -69,8 +64,10 @@ footer {
 }
 
 footer a:hover {
-    color: pink;
+    color: var(--background);
 }
+
+
 
 .content {
     height: 200vh;
