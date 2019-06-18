@@ -22,7 +22,6 @@ background-color: black;
 .iframe-container {
     top: 10em;
 }
-
 }
 
 @media only screen and (min-width: 501px) {
@@ -66,6 +65,10 @@ footer a:link {
 
 footer a:hover {
     color: var(--background);
+}
+
+footer a:visited {
+    color: white;
 }
 
 .content {
