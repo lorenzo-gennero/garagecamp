@@ -1,5 +1,5 @@
 :root {
-    --background:rgba(18, 82, 120, .80);
+    --background:rgba(220, 220, 220, .80);
 }
 
 html {
@@ -41,6 +41,14 @@ body {
     flex-direction: column;
     min-height: 100%;
    
+}
+
+.text {
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    margin: 15em 5em 15em 5em;
+    border: 1px red solid;
 }
 
 
@@ -89,7 +97,8 @@ header {
 
 .logo {
     margin: 0;
-    width: 10rem;
+    margin-top: .2em;
+    width: 10em;
 }
 .nav-toggle {
     display: none;
