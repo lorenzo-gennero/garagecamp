@@ -44,11 +44,12 @@ body {
 }
 
 .text {
-    display: flex;
+    display: block;
     position: absolute;
-    flex-wrap: wrap;
-    margin: 15em 5em 15em 5em;
+    background: var(--background);
+    margin: 8em 5em 15em 5em;
     border: 1px red solid;
+    padding: 2em;
 }
 
 
